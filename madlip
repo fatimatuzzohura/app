@@ -1,0 +1,43 @@
+#Creating a madlibs game
+
+#Creating variables and taking input
+
+noun1=input("Noun: ")
+noun2=input("Noun: ")
+noun3=input("Noun: ")
+noun4=input("Noun: ")
+noun5=input("Noun: ")
+noun6=input("Noun: ")
+noun7=input("Noun: ")
+noun8=input("Noun: ")
+noun9=input("Noun: ")
+noun10=input("Noun: ")
+
+verb1=input("Verb: ")
+verb2=input("Verb: ")
+verb3=input("Verb: ")
+verb4=input("Verb: ")
+verb5=input("Verb: ")
+verb6=input("Verb: ")
+verb7=input("Verb: ")
+
+adj1=input("Adj: ")
+adj2=input("Adj: ")
+adj3=input("Adj: ")
+
+adverb1=input("Adverb: ")
+
+famous_brand=input("Famous_brand: ")
+
+#Creating text for the game
+madlibs=str(f"My name is {noun1}.I live in {noun2}.I {verb1} to become a {noun3}.\
+So I am trying very{adj1}. My motto is to {verb2} people to solve their {adverb1} day to day\
+life problem.Because every one got their own problem . No one deserves to suffer\
+with their {noun4}.They need {verb3} and {verb4} from others because people are most\
+helpless when they are in {noun5}.So, we want to help those people and because unity is \
+strength . If we want ,we can atleast {verb5} some people from {noun6} rather than \
+buyin those {famous_brand}{noun7} and{noun8} costing like hell .{noun9} is a  {noun10} that \
+allows people to {verb6}and to be helped by each other in any possible way .So,{verb7} us {adj2}\
+luck and good journey.That's a{adj3} one")
+
+print(madlibs)
